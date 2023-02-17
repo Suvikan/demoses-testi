@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class RulettiComponent {
   showResepti = false;
   randomiser: Number | undefined;
+selectedMeal: any;
 
 
   onShowResepti() {

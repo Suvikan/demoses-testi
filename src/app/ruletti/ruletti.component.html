@@ -1,5 +1,10 @@
-
+<select [(ngModel)]="selectedMeal">
+    <option value="10">Liha</option>
+    <option value="20">Kala</option>
+    <option value="30">Kasvis</option>
+    <option value="40">Vegaaninen</option>
+</select>
 <button type="submit" (click)="onShowResepti()">Ruletti</button>   
-<p>Your random number is: {{ randomiser }}</p>
+<p>Your random number is: {{ selectedMeal + randomiser }}</p>
 
 <app-resepti *ngIf="showResepti"></app-resepti>
