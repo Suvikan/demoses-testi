@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { RulettiComponent } from './ruletti/ruletti.component';
 import { ReseptiComponent } from './resepti/resepti.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,

@@ -1,1 +1,5 @@
-<p>ruletti works!</p>
+
+<button type="submit" (click)="onShowResepti()">Ruletti</button>   
+<p>Your random number is: {{ randomiser }}</p>
+
+<app-resepti *ngIf="showResepti"></app-resepti>
